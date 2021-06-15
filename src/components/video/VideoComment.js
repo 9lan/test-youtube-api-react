@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export class VideoComment extends React.Component {
+export class VideoComment extends React.PureComponent {
   render() {
     return (
       <div className="ui comments">
